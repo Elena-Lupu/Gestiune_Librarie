@@ -1,0 +1,282 @@
+/*Texte*/
+.text {
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.titlu {
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.subtitlu {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.item_text {
+    position: fixed;
+    width: 277px;
+    height: 20px;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    left: -6px;
+    line-height: 20px;
+}
+
+.logo {
+    position: fixed;
+    width: 370px;
+    height: 35px;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 30px;
+}
+
+/*Chenare*/
+.chenar {
+    margin: auto;
+    box-sizing: border-box;
+    width: 370px;
+    background: #D7922C;
+    border: 3px solid #6B3A00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 30px;
+    left: 0px;
+    top: 22px;
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.info_box {
+    width: 500px;
+    height: 500px;
+    background: #f0fcff;
+    border: 2px solid #0038a7;
+    left: 35%;
+    top: 15%;
+    position: fixed;
+    overflow-y: scroll;
+}
+
+.confirm_box {
+    width: 400px;
+    height: 320px;
+    text-align: center;
+}
+
+/*Butoane*/
+.buton {
+    background-color: #fffb00;
+    border-radius: 30px;
+    padding: 5px;
+    border: 1px solid #ADADAD;
+}
+
+.buton:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+    background-color: #ffaa00;
+    cursor: pointer;
+}
+
+.t { /*Buton_contrast, folosit la tabele*/
+    background-color: #0058d4;
+    color: white;
+}
+
+.t:hover {
+    background-color: #0044a3;
+}
+
+.inactiv {
+    background-color: #696969;
+    pointer-events: none;
+}
+
+.inactiv_t { background-color: #696969; }
+
+.tooltip {
+    visibility: hidden;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    border-radius: 7px;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+.inactiv_t:hover .tooltip { visibility: visible; }
+
+.buton_menu {
+    position: fixed;
+    width: 54px;
+    height: 52px;
+    background: #B56E02;
+    box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    top: 7px;
+    left: 7px;
+    align-items: center;
+}
+
+.buton_menu:hover {
+    background: #ec8e01;
+    cursor: pointer;
+}
+
+/*Bare de navigare*/
+.bar {
+    position: fixed;
+    left: 0;
+    background: #A16100;
+    box-shadow: inset 7px 0px 4px rgba(255, 184, 0, 0.75);
+    border: 3px solid #6B3A00;
+}
+
+.top {
+    top: 0;
+    width: 100%;
+    height: 65px;
+}
+
+.side {
+    top: 65px;
+    width: 225px;
+    height: 100%;
+}
+
+.menu_info {
+    width: 15%;
+    height: 100%;
+    float: right;
+    color: white;
+    padding-top: 10px;
+}
+
+/*Itemi din meniu*/
+.item {
+    display: block;
+    box-shadow: 0px 0px 0px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+.item:hover {
+    box-shadow: 0px 7px 7px rgba(255, 208, 0, 0.75);
+    cursor: pointer;
+}
+
+/*Fundaluri*/
+.fundal {
+    width: 100%;
+    max-height: 85%;
+    position: fixed;
+    overflow-y: auto;
+}
+
+.main {
+    top: 65px;
+    left: 225px;
+}
+
+.pop_up {
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0px;
+    top: 0px;
+    max-height: 100%;
+    height: 100%;
+}
+
+/*Inputs*/
+.search_bar {
+    width: 20%;
+    background: #FFFFFF;
+    border: 2px solid #bc5c00;
+    box-shadow: inset -1px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.search_bar:focus {
+    outline: none;
+    border-color: #ff7d00;
+    box-shadow: 0 0 10px #ff7d00, inset -1px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add {
+    border: 2px solid #0071f1;
+    border-radius: 10px;
+    box-shadow: inset -1px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.add:focus {
+    outline: none;
+    border-color: #00a6ff;
+    box-shadow: 0 0 10px #00a6ff, inset -1px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Elemente de tabel*/
+.tabel {
+    margin: 10px;
+    max-width: 85%;
+    max-height: 45%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.data {
+    font-family: 'Jaldi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    border-bottom: 1px solid #007cff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.special_data {
+    text-align: center;
+    padding: 10px;
+}
+
+.row {
+    background-color: #ffffff;
+}
+
+.row:hover {
+    background-color: #E6E6E6;
+}
+
+.header {
+    background-color: #eee;
+    border-bottom: 2px solid #007cff;
+    top: 0px;
+    position: sticky;
+    font-weight: bold;
+}
+
+.header:hover {
+    background-color: #ffc083;
+}
+
+/*Forme*/
+.add_form {
+    margin: 3%;
+    overflow-y: auto;
+    height: 90%;
+}
